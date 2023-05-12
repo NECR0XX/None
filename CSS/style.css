@@ -59,12 +59,12 @@ a {
     
     /* banner */
     
-.banner {
+.banner img{
     position: absolute;
-    width: 1440px;
+    width: 1495px;
     height: 361px;
     left: 0px;
-    top: 223px;
+    top: 190px;
     
     
     border-radius : 39px;
