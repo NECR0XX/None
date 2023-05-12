@@ -6,9 +6,18 @@
     height: 145px;
     left: 0px;
     top: 0px;
+
     background-color: black;
     mix-blend-mode: normal;}
     
+.navbar img {
+    position: absolute;
+    width: 324px;
+    height: 324px;
+    left: 521px;
+    top: -90px;
+}
+
     /* Nav Bar buttons */
     
     .navbarbutton {
