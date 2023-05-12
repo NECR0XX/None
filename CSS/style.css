@@ -1,5 +1,9 @@
+@font-face {
+    font-family: 'Julee-Regular';
+    src: url('../fonts/Julee-Regular.ttf') format('truetype');
+}
 body {
-    font-family: Julee;
+    font-family: Julee-Regular;
     color: white;
 }
 
@@ -12,10 +16,11 @@ a {
 
 .navbar {
     position: absolute;
-    width: 1440px;
+    width: 1495px;
     height: 145px;
     left: 0px;
     top: 0px;
+    
 
     background-color: black;
     mix-blend-mode: normal;}
@@ -31,13 +36,13 @@ a {
     /* Nav Bar buttons */
     
 .navbarbutton li {
+    font-size: 25px;
     display: inline;
     position:relative ;
     left: 954px;
     top: 69px;
     padding: 10px;
-    font-size: 25px;
-    text-shadow: 0px 0px 7px red;
+    text-shadow: px 3px 15px red;
     }
     
     /* subnavbar */
