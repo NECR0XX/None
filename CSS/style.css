@@ -335,6 +335,22 @@ filter: drop-shadow(0px 4px 4px rgba(255, 0, 0, 0.75));
     top: 1300px;  
     background: #000000;
 }
+.rodape2{
+    position: absolute;
+    width: 99vw;
+    height: 91px;
+    left: 0px;
+    top: 1000px;  
+    background: #000000;
+}
+.rodape3{
+    position: absolute;
+    width: 99vw;
+    height: 91px;
+    left: 0px;
+    top: 900px;  
+    background: #000000;
+}
     
     
 /* F4LL CO. BRANDING ALL RIGHTS RESERVED COPYRIGHT© */
