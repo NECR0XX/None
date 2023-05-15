@@ -368,6 +368,7 @@ filter: drop-shadow(0px 4px 4px rgba(255, 0, 0, 0.75));
     left: 165px;
     top: 540px;
     font-size: 1.5em;
+    filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
 }
 .t2 {
     color: #000000;
@@ -376,6 +377,7 @@ filter: drop-shadow(0px 4px 4px rgba(255, 0, 0, 0.75));
     left: 415px;
     top: 540px;
     font-size: 1.5em;
+    filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
 }
 .t4 {
     color: #000000;
@@ -384,6 +386,7 @@ filter: drop-shadow(0px 4px 4px rgba(255, 0, 0, 0.75));
     left: 665px;
     top: 540px;
     font-size: 1.5em;
+    filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
 }
 .t5 {
     color: #000000;
@@ -392,6 +395,7 @@ filter: drop-shadow(0px 4px 4px rgba(255, 0, 0, 0.75));
     left: 915px;
     top: 540px;
     font-size: 1.5em;
+    filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
 }
 .t6 {
     color: #000000;
@@ -400,6 +404,7 @@ filter: drop-shadow(0px 4px 4px rgba(255, 0, 0, 0.75));
     left: 1165px;
     top: 540px;
     font-size: 1.5em;
+    filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
 }
 .t7 {
     color: #000000;
@@ -408,6 +413,7 @@ filter: drop-shadow(0px 4px 4px rgba(255, 0, 0, 0.75));
     left: 165px;
     top: 890px;
     font-size: 1.5em;
+    filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
 }
 .t8 {
     color: #000000;
@@ -416,6 +422,7 @@ filter: drop-shadow(0px 4px 4px rgba(255, 0, 0, 0.75));
     left: 415px;
     top: 890px;
     font-size: 1.5em;
+    filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
 }
 .t9 {
     color: #000000;
@@ -424,6 +431,7 @@ filter: drop-shadow(0px 4px 4px rgba(255, 0, 0, 0.75));
     left: 665px;
     top: 890px;
     font-size: 1.5em;
+    filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
 }
 .t10 {
     color: #000000;
@@ -432,6 +440,7 @@ filter: drop-shadow(0px 4px 4px rgba(255, 0, 0, 0.75));
     left: 915px;
     top: 890px;
     font-size: 1.5em;
+    filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
 }
 .t11 {
     color: #000000;
@@ -440,6 +449,7 @@ filter: drop-shadow(0px 4px 4px rgba(255, 0, 0, 0.75));
     left: 1165px;
     top: 890px;
     font-size: 1.5em;
+    filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
 }
     
 /* F4LL CO. BRANDING ALL RIGHTS RESERVED COPYRIGHT© */
@@ -944,6 +954,7 @@ line-height: 28px;
 display: flex;
 align-items: center;
 color: #000000;
+
 }
 .criadores{
 position: absolute;
@@ -965,6 +976,7 @@ display: flex;
 align-items: center;
 text-align: center;
 color: #FFFFFF;
+
 }
 .guA img{
 position: absolute;
@@ -972,7 +984,8 @@ width: 164px;
 height: 216px;
 left: 766px;
 top: 268px;
-background: #D9D9D9
+background: #D9D9D9;
+filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
 }
 .text2{
 position: absolute;
@@ -988,6 +1001,7 @@ display: flex;
 align-items: center;
 text-align: center;
 color: #000000;
+filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
 }
 
 .text3{
@@ -1004,6 +1018,7 @@ display: flex;
 align-items: center;
 text-align: center;
 color: #000000;
+filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
 }
 .text4{
 position: absolute;
@@ -1019,6 +1034,7 @@ display: flex;
 align-items: center;
 text-align: center;
 color: #000000;
+filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
 }
 .text5{
 position: absolute;
@@ -1034,6 +1050,7 @@ display: flex;
 align-items: center;
 text-align: center;
 color: #000000;
+filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
 }
 .text6{
 position: absolute;
@@ -1049,6 +1066,7 @@ display: flex;
 align-items: center;
 text-align: center;
 color: #000000;
+filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
 }
 .text7{
 position: absolute;
@@ -1064,6 +1082,7 @@ display: flex;
 align-items: center;
 text-align: center;
 color: #000000;
+filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
 }
 .guB img{
 position: absolute;
@@ -1072,6 +1091,7 @@ height: 216px;
 left: 970px;
 top: 268px;
 background: #D9D9D9;
+filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
 }
 .laP img{
 position: absolute;
@@ -1080,6 +1100,7 @@ height: 216px;
 left: 1174px;
 top: 268px;
 background: #D9D9D9;
+filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
 }
 .leoG img{
 position: absolute;
@@ -1088,6 +1109,7 @@ height: 216px;
 left: 766px;
 top: 568px;
 background: #D9D9D9;
+filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
 }
 .ryH img{
 position: absolute;
@@ -1096,6 +1118,7 @@ height: 216px;
 left: 970px;
 top: 568px;
 background: #D9D9D9;
+filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
 }
 .weA img{
 position: absolute;
@@ -1104,4 +1127,5 @@ height: 216px;
 left: 1174px;
 top: 568px;
 background: #D9D9D9;
+filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
 }
