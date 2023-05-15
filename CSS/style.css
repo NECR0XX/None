@@ -335,6 +335,22 @@ filter: drop-shadow(0px 4px 4px rgba(255, 0, 0, 0.75));
     top: 1300px;  
     background: #000000;
 }
+.rodape2{
+    position: absolute;
+    width: 99vw;
+    height: 91px;
+    left: 0px;
+    top: 1000px;  
+    background: #000000;
+}
+.rodape3{
+ position: absolute;
+    width: 99vw;
+    height: 91px;
+    left: 0px;
+    top: 900px;  
+    background: #000000;
+}
     
     
 /* F4LL CO. BRANDING ALL RIGHTS RESERVED COPYRIGHT© */
@@ -549,152 +565,196 @@ ol, li {
   perspective: 100px;
   margin-top: 680px;
 }
+.sobre{
+    
+background: #000000;
+position: absolute;
+width: 163px;
+height: 36px;
+left: 95px;
+top: 187px;
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 40px;
+display: flex;
+align-items: center;
+text-align: center;
 
-.carousel__viewport {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  overflow-x: scroll;
-  counter-reset: item;
-  scroll-behavior: smooth;
-  scroll-snap-type: x mandatory;
+color: #ffffff;
+}
+.text1{
+position: absolute;
+font-family: 'Jura';
+width: 474px;
+height: 616px;
+left: 44px;
+top: 237px;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: center;
+color: #000000;
+}
+.criadores{
+position: absolute;
+width: 182px;
+height: 36px;
+left: 952px;
+top: 188px;
+background: #000000;
+position: absolute;
+width: 122px;
+height: 40px;
+left: 982px;
+top: 186px;
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 40px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+.guA{
+position: absolute;
+width: 164px;
+height: 216px;
+left: 766px;
+top: 268px;
+background: #D9D9D9
+}
+.text2{
+position: absolute;
+width: 165px;
+height: 36px;
+left: 765px;
+top: 492px;
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 40px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
 }
 
-.carousel__slide {
-  position: relative;
-  flex: 0 0 100%;
-  width: 100%;
-  background-color: #f99;
-  counter-increment: item;
+.text3{
+position: absolute;
+width: 165px;
+height: 36px;
+left: 968px;
+top: 492px;
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 40px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
 }
-
-.carousel__slide:nth-child(even) {
-  background-color: #99f;
+.text4{
+position: absolute;
+width: 165px;
+height: 36px;
+left: 1166px;
+top: 492px;
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 40px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
 }
-
-.carousel__slide:before {
-  content: counter(item);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate3d(-50%,-40%,70px);
-  color: #fff;
-  font-size: 2em;
+.text5{
+position: absolute;
+width: 165px;
+height: 36px;
+left: 765px;
+top: 784px;
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 40px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
 }
-
-.carousel__snapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  scroll-snap-align: center;
+.text6{
+position: absolute;
+width: 165px;
+height: 36px;
+left: 970px;
+top: 784px;
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 40px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
 }
-
-@media (hover: hover) {
-  .carousel__snapper {
-    animation-name: tonext, snap;
-    animation-timing-function: ease;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-  }
-
-  .carousel__slide:last-child .carousel__snapper {
-    animation-name: tostart, snap;
-  }
+.text7{
+position: absolute;
+width: 165px;
+height: 36px;
+left: 1180px;
+top: 784px;
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 40px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
 }
-
-@media (prefers-reduced-motion: reduce) {
-  .carousel__snapper {
-    animation-name: none;
-  }
+.guB{
+position: absolute;
+width: 164px;
+height: 216px;
+left: 970px;
+top: 268px;
+background: #D9D9D9;
 }
-
-.carousel:hover .carousel__snapper,
-.carousel:focus-within .carousel__snapper {
-  animation-name: none;
+.laP{
+position: absolute;
+width: 164px;
+height: 216px;
+left: 1174px;
+top: 268px;
+background: #D9D9D9;
 }
-
-.carousel__navigation {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  text-align: center;
+.leoG{
+position: absolute;
+width: 164px;
+height: 216px;
+left: 766px;
+top: 568px;
+background: #D9D9D9;
 }
-
-.carousel__navigation-list,
-.carousel__navigation-item {
-  display: inline-block;
+.ryH{
+position: absolute;
+width: 164px;
+height: 216px;
+left: 970px;
+top: 568px;
+background: #D9D9D9;
 }
-
-.carousel__navigation-button {
-  display: inline-block;
-  width: 1.5rem;
-  height: 1.5rem;
-  background-color: #ff0000af;
-  background-clip: content-box;
-  border: 0.25rem solid transparent;
-  border-radius: 50%;
-  font-size: 0;
-  transition: transform 0.1s;
-  filter: drop-shadow(0px 4px 10px rgba(255, 0, 0, 0.74));
+.weA{
+position: absolute;
+width: 164px;
+height: 216px;
+left: 1174px;
+top: 568px;
+background: #D9D9D9;
 }
-
-.carousel::before,
-.carousel::after,
-.carousel__prev,
-.carousel__next {
-  position: absolute;
-  top: 0;
-  margin-top: 37.5%;
-  width: 4rem;
-  height: 4rem;
-  transform: translateY(-50%);
-  border-radius: 50%;
-  font-size: 0;
-  outline: 0;
-}
-
-.carousel::before,
-.carousel__prev {
-  left: -1rem;
-}
-
-.carousel::after,
-.carousel__next {
-  right: -1rem;
-}
-
-.carousel::before,
-.carousel::after {
-  content: '';
-  z-index: 1;
-  background-color: #ff1e1e;
-  background-size: 1.5rem 1.5rem;
-  background-repeat: no-repeat;
-  background-position: center center;
-  color: #ffffff;
-  font-size: 2.5rem;
-  line-height: 7rem;
-  text-align: center;
-  pointer-events: none;
-  filter: drop-shadow(0px 4px 10px rgba(255, 0, 0, 0.74));
-}
-
-.carousel::before {
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='0,50 80,100 80,0' fill='%23fff'/%3E%3C/svg%3E");
-}
-
-.carousel::after {
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
-}
-
-
-
-
-
-
