@@ -822,7 +822,7 @@ align-items: center;
 text-align: center;
 color: #FFFFFF;
 }
-.guA{
+.guA img{
 position: absolute;
 width: 164px;
 height: 216px;
@@ -921,7 +921,7 @@ align-items: center;
 text-align: center;
 color: #000000;
 }
-.guB{
+.guB img{
 position: absolute;
 width: 164px;
 height: 216px;
@@ -929,7 +929,7 @@ left: 970px;
 top: 268px;
 background: #D9D9D9;
 }
-.laP{
+.laP img{
 position: absolute;
 width: 164px;
 height: 216px;
@@ -937,7 +937,7 @@ left: 1174px;
 top: 268px;
 background: #D9D9D9;
 }
-.leoG{
+.leoG img{
 position: absolute;
 width: 164px;
 height: 216px;
@@ -945,7 +945,7 @@ left: 766px;
 top: 568px;
 background: #D9D9D9;
 }
-.ryH{
+.ryH img{
 position: absolute;
 width: 164px;
 height: 216px;
@@ -953,7 +953,7 @@ left: 970px;
 top: 568px;
 background: #D9D9D9;
 }
-.weA{
+.weA img{
 position: absolute;
 width: 164px;
 height: 216px;
