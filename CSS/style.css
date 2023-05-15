@@ -312,3 +312,97 @@ border: 3px solid #FFFFFF;
 border-radius: 100%;
 filter: drop-shadow(0px 4px 4px rgba(255, 0, 0, 0.74));
 }
+
+/* contato */
+.barra1 {
+    position: absolute;
+width: 100vw;
+height: 135.67px;
+left: -10px;
+top: 200.33px;
+
+background: #000000;
+}
+
+.CT {
+    position: absolute;
+left: 45pc;
+top: 45px;
+
+font-family: 'Julee';
+font-size: 34px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.ret13 {
+    position: absolute;
+width: 1158px;
+height: 498px;
+left: 190px;
+top: 351px;
+
+background: #000000;
+}
+
+.N {
+    position: absolute;
+    left: 145px;
+    top: 120px;
+    
+    font-family: 'Julee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.E {
+    position: absolute;
+    left: 145px;
+    top: 242px;
+    
+    font-family: 'Julee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.T {
+    position: absolute;
+    left: 150px;
+    top: 362px;
+    
+    font-family: 'Julee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.ret13 img {
+    position: absolute;
+width: 454px;
+height: 388px;
+left: 700px;
+top: 150px;
+}
