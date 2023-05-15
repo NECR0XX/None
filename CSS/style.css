@@ -127,6 +127,17 @@ transform: rotate(180deg);
 filter: drop-shadow(0px 4px 4px rgba(255, 0, 0, 0.75));
 }
 
+
+.title-produto {
+    color:rgb(255, 255, 255);
+    font-size: 55px;
+    text-shadow: 0px 5px 15px rgb(255, 0, 0);
+    background-color: black;
+    border-radius: 35px;
+    margin-top: 150px;
+    text-align: center;
+}
+
     /* produto1ind */
 .prod1 img{
     box-sizing: border-box;
@@ -135,9 +146,15 @@ filter: drop-shadow(0px 4px 4px rgba(255, 0, 0, 0.75));
     width: 175px;
     height: 236px;
     left: 119px;
-    top: 654px;
+    top: 300px;
     border: 4px solid #000000;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.26);
+    ;
+    }
+
+    .prod1 img:hover {
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.26);
+        filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
     }
     
     
@@ -149,9 +166,15 @@ filter: drop-shadow(0px 4px 4px rgba(255, 0, 0, 0.75));
     width: 175px;
     height: 236px;
     left: 368px;
-    top: 654px;
+    top: 300px;
     border: 4px solid #000000;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);}
+    box-shadow: inset 0px 4px 5px rgba(0, 0, 0, 0.26);
+    }
+
+    .prod2 img:hover {
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.26);
+        filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
+    }
     
     
     /* produto3ind */
@@ -162,9 +185,14 @@ filter: drop-shadow(0px 4px 4px rgba(255, 0, 0, 0.75));
     width: 175px;
     height: 236px;
     left: 617px;
-    top: 654px;
+    top: 300px;
     border: 4px solid #000000;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);}
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.26);
+    }
+    .prod3 img:hover {
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.26);
+        filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
+    }
     
     
     /* produto4ind */
@@ -175,9 +203,14 @@ filter: drop-shadow(0px 4px 4px rgba(255, 0, 0, 0.75));
     width: 175px;
     height: 236px;
     left: 865px;
-    top: 654px;
+    top: 300px;
     border: 4px solid #000000;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.26);
+    
+    }
+    .prod4 img:hover {
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.26);
+        filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
     }
     
     
@@ -189,10 +222,108 @@ filter: drop-shadow(0px 4px 4px rgba(255, 0, 0, 0.75));
     width: 175px;
     height: 236px;
     left: 1114px;
-    top: 654px;
+    top: 300px;
     border: 4px solid #000000;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
     }
+    .prod5 img:hover {
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.26);
+        filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
+    }
+
+    .prod6 img{
+        box-sizing: border-box;
+        
+        position: absolute;
+        width: 175px;
+        height: 236px;
+        left: 119px;
+        top: 650px;
+        border: 4px solid #000000;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.26);
+        ;
+        }
+    
+        .prod6 img:hover {
+            box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.26);
+            filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
+        }
+        
+        
+        /* produto2ind */
+    .prod7 img{
+        box-sizing: border-box;
+        
+        position: absolute;
+        width: 175px;
+        height: 236px;
+        left: 368px;
+        top: 650px;
+        border: 4px solid #000000;
+        box-shadow: inset 0px 4px 5px rgba(0, 0, 0, 0.26);
+        }
+    
+        .prod7 img:hover {
+            box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.26);
+            filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
+        }
+        
+        
+        /* produto3ind */
+    .prod8 img{
+        box-sizing: border-box;
+        
+        position: absolute;
+        width: 175px;
+        height: 236px;
+        left: 617px;
+        top: 650px;
+        border: 4px solid #000000;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.26);
+        }
+        .prod8 img:hover {
+            box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.26);
+            filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
+        }
+        
+        
+        /* produto4ind */
+    .prod9 img{
+        box-sizing: border-box;
+        
+        position: absolute;
+        width: 175px;
+        height: 236px;
+        left: 865px;
+        top: 650px;
+        border: 4px solid #000000;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.26);
+        
+        }
+        .prod9 img:hover {
+            box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.26);
+            filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
+        }
+        
+        
+        /* produto5ind */
+    .prod10 img{
+        box-sizing: border-box;
+        
+        position: absolute;
+        width: 175px;
+        height: 236px;
+        left: 1114px;
+        top: 650px;
+        border: 4px solid #000000;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+        
+        }
+        .prod10 img:hover {
+            box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.26);
+            filter: drop-shadow(0px 1px 2px rgb(255, 0, 0))
+        }
     
     /* Rodapé */
     
@@ -410,10 +541,11 @@ ol, li {
 }
 
 .carousel {
+    border: 5px solid #000000;
     height: 550px;
   position: relative;
   padding-top: 75%;
-  filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.459));
+  filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.246));
   perspective: 100px;
   margin-top: 680px;
 }
@@ -503,12 +635,13 @@ ol, li {
   display: inline-block;
   width: 1.5rem;
   height: 1.5rem;
-  background-color: #333;
+  background-color: #ff0000af;
   background-clip: content-box;
   border: 0.25rem solid transparent;
   border-radius: 50%;
   font-size: 0;
   transition: transform 0.1s;
+  filter: drop-shadow(0px 4px 10px rgba(255, 0, 0, 0.74));
 }
 
 .carousel::before,
@@ -540,15 +673,16 @@ ol, li {
 .carousel::after {
   content: '';
   z-index: 1;
-  background-color: #333;
+  background-color: #ff1e1e;
   background-size: 1.5rem 1.5rem;
   background-repeat: no-repeat;
   background-position: center center;
-  color: #fff;
+  color: #ffffff;
   font-size: 2.5rem;
-  line-height: 4rem;
+  line-height: 7rem;
   text-align: center;
   pointer-events: none;
+  filter: drop-shadow(0px 4px 10px rgba(255, 0, 0, 0.74));
 }
 
 .carousel::before {
@@ -558,6 +692,8 @@ ol, li {
 .carousel::after {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
 }
+
+
 
 
 
